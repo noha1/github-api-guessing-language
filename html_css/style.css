@@ -1,0 +1,71 @@
+.overflow-visible {
+  white-space: initial;
+}
+.inline-block {
+    display: inline-block;
+}
+
+.display-flex {
+    display: flex;
+}
+.left-12{
+  margin-left:12px;
+}
+
+.feed-item__icon {
+    width: 70px;
+    height: 70px;
+    border: 2px solid lightblue;
+    background-color:#ccc;
+    position: relative;
+    min-width:45px;
+    
+    }
+
+
+.feed-item__icon:before {
+    content: "JS";
+    position:relative;
+    top:40%;
+    left:40%;
+    width: 25%;
+    height: 25%;
+    bottom:10px;
+    font-size: 2.0em;
+    text-align: right;
+    display: block;
+
+    line-height: 40px;
+}
+
+.feed-container{
+
+    flex-wrap: nowrap;
+    vertical-align: text-bottom;
+    align-items: center;
+    width:100%;
+    margin:4px;
+ 
+}
+
+
+.feed-item__title {
+      white-space: nowrap;
+      font-weight:bold;
+       padding-bottom: 4px;
+    
+       vertical-align: baseline;
+}
+.feed-item__link{color:grey;text-decoration:none;}
+.feed-item__timestamp{
+ position:relative;
+top:35px;
+left:80%;
+}
+
+
+.list-item__comment{
+ clear:both;
+ min-wdith:200px;
+}
+
